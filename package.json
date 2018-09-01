@@ -1,0 +1,39 @@
+{
+  "name": "msg91-otp-custom",
+  "version": "1.0.0",
+  "description": "This NPM module allows you to use MSG91 messaging service to send out OTPs to your users. This service overcomes the disadvantage of MSG91 allowing you to send only 1 OTP at a time to a phone number by storing OTPs in your Redis, MongoDB or SQL database. Each OTP sent out is sent via the Messaging service. You can also set a TTL for each OTP gneerated for a phone number. Each OTP request for a Phone Number is uniquely identified by an Action which could be a custom logic for your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests found\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilgurnani/custom-mg91-otp.git"
+  },
+  "keywords": [
+    "msg91",
+    "otp",
+    "custom-otp",
+    "redis",
+    "otp",
+    "with",
+    "redis",
+    "otp",
+    "with",
+    "mongo"
+  ],
+  "author": "Nikhil Gurnani (gurnanikhil@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilgurnani/custom-mg91-otp/issues"
+  },
+  "homepage": "https://github.com/nikhilgurnani/custom-mg91-otp#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "firebase-admin": "^6.0.0",
+    "mongoose": "^5.2.12",
+    "q": "^1.5.1",
+    "redis": "^2.8.0",
+    "uuid4": "^1.0.0"
+  }
+}
