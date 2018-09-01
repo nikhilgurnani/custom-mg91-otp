@@ -1,0 +1,2 @@
+# custom-mg91-otp
+This NPM module allows you to use MSG91 messaging service to send out OTPs to your users. This service overcomes the disadvantage of MSG91 allowing you to send only 1 OTP at a time to a phone number by storing OTPs in your Redis, MongoDB or SQL database. Each OTP sent out is sent via the Messaging service. You can also set a TTL for each OTP gneerated for a phone number. Each OTP request for a Phone Number is uniquely identified by an Action which could be a custom logic for your project.
